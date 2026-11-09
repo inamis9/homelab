@@ -1,0 +1,6 @@
+# Logs contain temporary passwords and account details
+*-log.csv
+account-report-*.csv
+
+# Local exports
+gpreport.html
