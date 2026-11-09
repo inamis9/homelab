@@ -15,7 +15,7 @@ A simulated small-business IT environment built in VirtualBox to practice Tier 1
 
 All four VMs sit on a private VirtualBox NAT network (`10.0.0.0/24`, gateway `10.0.0.1`) with VirtualBox's DHCP turned off, so DC01 handles addressing the way it would in a real office. The domain is `lab.local`.
 
-<!-- Add screenshots/network-diagram.png here once it's drawn -->
+![Lab network diagram](screenshots/network-diagram.png)
 
 ## What's in the lab
 
@@ -70,13 +70,22 @@ Windows Server 2022, Active Directory, DNS, DHCP, Group Policy, PowerShell, Wind
 - [x] VirtualBox lab network and VMs
 - [x] Domain controller with AD DS, DNS and DHCP
 - [x] Both workstations joined to `lab.local`
-- [ ] OUs, groups, users and file shares
+- [x] OU structure (department OUs, computers, groups, disabled users)
+- [ ] Security groups, users and file shares
 - [ ] 5 GPOs configured and verified with `gpresult`
 - [ ] PowerShell scripts tested, including `-WhatIf` runs
 - [ ] osTicket installed and configured
 - [ ] 10 tickets worked and documented
 - [ ] Runbook written and tested
-- [ ] Network diagram and screenshots
+- [x] Network diagram
+- [ ] Screenshots of each finished part
+
+## Screenshots
+
+| | |
+| --- | --- |
+| **Active Directory OU structure** | ![ADUC OU structure](screenshots/aduc-ou-structure.png) |
+| **Group Policy Management console** | ![Group Policy Management](screenshots/gpm-console.png) |
 
 ## What I learned
 
